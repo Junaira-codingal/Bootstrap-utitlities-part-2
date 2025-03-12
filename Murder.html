@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Murder</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" title="styles.css" />
+    <style>
+      body {
+        background-image: url("https://i.pinimg.com/736x/90/b2/4d/90b24dc6818cb8f7f7fe3938ca9072bf.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+      }
+
+      .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        background-color: rgba(0, 0, 0, 0.642);
+      }
+
+      .pagination a {
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        border: 1px solid rgb(204, 204, 204);
+        margin: 0 5px;
+        border-radius: 5px;
+        font-family: cursive;
+      }
+      #tagline-div {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+        box-shadow: 0px 0px 14px red;
+        text-shadow: 0px 0px 14px red;
+        color: white;
+        font-family: cursive;
+      }
+      #text-style {
+        text-shadow: 0px 0px 14px white;
+        color: white;
+        font-family: cursive;
+      }
+      .card {
+        width: 18rem;
+        font-family: cursive;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        color: white;
+      }
+    </style>
+  </head>
+  <body class="text-center">
+    <div id="tagline-div">
+      <h1>Justice Delayed. Truth Denied</h1>
+      <h2>
+        Some killers were never caught. Some victims never got justice. Explore
+        the most chilling unsolved murder cases that remain a mystery to this
+        day.
+      </h2>
+    </div>
+    <div
+      class="container mt-5"
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div class="card">
+        <img
+          class="card-img-top"
+          src="https://i.pinimg.com/736x/3a/bd/c1/3abdc1f1ae44270d7643f948a6f5c80e.jpg"
+          alt="card image cap"
+          style="padding: 20px"
+        />
+        <div class="card-body bg-dark">
+          <h4 class="card-title" id="text-style">
+            Jack The Ripper (1888) – London, England
+          </h4>
+          <p class="card-text" id="text-style">
+            The gruesome murders of at least five women in the Whitechapel
+            district of London. The killer’s identity remains a mystery, and the
+            case has inspired countless theories.
+          </p>
+
+          <a href="jack the ripper.html" class="btn btn-dark btn-outline-danger"
+            >Learn More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid"
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        padding: 30px;
+      "
+    >
+      <h1 id="text-style">Choose Your Mystery Category:</h1>
+      <div class="pagination">
+        <ul class="pagination">
+          <li class="active">
+            <a href="Murder.html" class="page-number">Murders</a>
+          </li>
+          <li class="page-item">
+            <a href="Kidnappings.html" class="page-number">Kidnappings</a>
+          </li>
+          <li class="page-item">
+            <a href="heist.html" class="page-number">Heists</a>
+          </li>
+          <li class="page-item">
+            <a href="Conspiracies.html" class="page-number">Conspiracies</a>
+          </li>
+          <li class="page-item"><a href="Kidnappings.html">Next</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

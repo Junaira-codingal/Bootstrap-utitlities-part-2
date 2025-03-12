@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kidnappings</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" title="styles.css" />
+    <style>
+      body {
+        background-image: url("https://i.pinimg.com/736x/90/b2/4d/90b24dc6818cb8f7f7fe3938ca9072bf.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+      }
+
+      .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        background-color: rgba(0, 0, 0, 0.678);
+      }
+
+      .pagination a {
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        border: 1px solid rgb(204, 204, 204);
+        margin: 0 5px;
+        border-radius: 5px;
+        font-family: cursive;
+      }
+      #tagline-div {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+        box-shadow: 0px 0px 14px red;
+        text-shadow: 0px 0px 14px red;
+        color: white;
+        font-family: cursive;
+        font-size: 30px;
+      }
+      #text-style {
+        text-shadow: 0px 0px 14px white;
+        color: white;
+        font-family: cursive;
+      }
+      .card {
+        width: 18rem;
+        font-family: cursive;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        color: white;
+      }
+    </style>
+  </head>
+  <body class="text-center">
+    <div id="tagline-div">
+      <h1>Kidnapped by the unknown—who are they, and where are they now?</h1>
+      <h2>
+        Unsolved cases, vanishing lives, and a trail of unanswered questions.
+      </h2>
+    </div>
+    <div
+      class="container mt-5"
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div class="card">
+        <img
+          class="card-img-top"
+          src="https://i.pinimg.com/736x/34/b4/a6/34b4a60658168fd4af22a4bc874fab14.jpg"
+          alt="card image cap"
+          style="padding: 20px"
+        />
+        <div class="card-body bg-dark">
+          <h4 class="card-title" id="text-style">David Parker Ray (1999)</h4>
+          <p class="card-text" id="text-style">
+            Though his true number of victims is unknown, Ray was arrested in
+            1999 after one of his captives managed to escape. He was never
+            charged with murder, but many believe he killed several of his
+            victims. He died in 2002, and his case remains a chilling example of
+            kidnapping and torture.
+          </p>
+
+          <a href="David Parker.html" class="btn btn-dark btn-outline-danger"
+            >Learn More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid"
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        padding: 30px;
+      "
+    >
+      <h1 id="text-style">Choose Your Mystery Category:</h1>
+      <div class="pagination">
+        <ul class="pagination">
+          <li class="page-item"><a href="Murder.html">Previous</a></li>
+          <li class="page-item">
+            <a href="Murder.html" class="page-number active">Murders</a>
+          </li>
+          <li class="active">
+            <a href="Kidnappings.html" class="page-number">Kidnappings</a>
+          </li>
+          <li class="page-item">
+            <a href="heist.html" class="page-number">Heists</a>
+          </li>
+          <li class="page-item">
+            <a href="Conspiracies.html" class="page-number">Conspiracies</a>
+          </li>
+          <li class="page-item"><a href="heist.html">Next</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
